@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name SamacSys_Parts)(type KiCad)(uri D:/Documentos/Kicad/Librerias/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name SD_CARD_DP)(type KiCad)(uri "$(KIPRJMOD)/SD_CARD_DP.pretty")(options "")(descr ""))
+)

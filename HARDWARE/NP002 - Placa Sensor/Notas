@@ -1,0 +1,6 @@
+Definir para la Placa_Sensor:
+
+Tensión de referencia Vref (N° de parte y package): COnsiderar el valor que necesitamos para Vbias y Vzero
+Considerar incorporar el ADC o bajar la Vref del ADC del PIC (hacer cálculos en base al rango dinamico y la sensibilidad)
+El conector debe ser macho (en la placa madre va el hembra)
+Agregar capacitor de filtro para la alimentación
