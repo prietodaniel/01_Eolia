@@ -1,0 +1,30 @@
+build/default/production/main.o:  \
+main.c  \
+main.h  \
+ mcc_generated_files/clock.h  \
+mcc_generated_files/system.h  \
+ mcc_generated_files/pin_manager.h  \
+mcc_generated_files/clock.h  \
+ mcc_generated_files/interrupt_manager.h  \
+mcc_generated_files/traps.h  \
+ mcc_generated_files/uart1.h  \
+mcc_generated_files/../i2c_master.h  \
+ mcc_generated_files/spi1.h  \
+mcc_generated_files/uart1.h  \
+ status_indicator.h  \
+mcc_generated_files/pin_manager.h  \
+ ../Sim808.X/dist/default/../../sim808.h  \
+ ../Sim808.X/dist/default/../../../Protocol.X/dist/default/../../extended_protocol.h  \
+ ../Sim808.X/dist/default/../../../24FJ64GB002.X/dist/default/../../mcc_generated_files/uart1.h  \
+ ../Sim808.X/dist/default/../../../24FJ64GB002.X/dist/default/../../mcc_generated_files/clock.h  \
+ ../SDCard.X/dist/default/../../sd_card.h  \
+ ../SDCard.X/dist/default/../../ff.h  \
+ ../SDCard.X/dist/default/../../integer.h  \
+ ../SDCard.X/dist/default/../../ffconf.h  \
+ ../SDCard.X/dist/default/../../diskio.h  \
+ ../SDCard.X/dist/default/../../../24FJ64GB002.X/mcc_generated_files/clock.h  \
+ ../SDCard.X/dist/default/../../../24FJ64GB002.X/mcc_generated_files/spi1.h  \
+ ../SDCard.X/dist/default/../../../24FJ64GB002.X/mcc_generated_files/pin_manager.h  \
+ ../SDCard.X/dist/default/../../../24FJ64GB002.X/extended_protocol.h  \
+ ../SDCard.X/dist/default/../../../24FJ64GB002.X/status_indicator.h  \
+ i2c_master.h 
