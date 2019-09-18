@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source D:/Documentos/TesisDP/MOBOv4_Artesanal/MB_V2.sch)
-    (date "21/7/2019 9:59:25 p. m.")
+    (source F:/Daniel/Documentos/DP/Tesis/KiCAD/MOBOv4_Artesanal/MB_V2.sch)
+    (date "24/07/2019 15:00:18")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 5C849857))
     (comp (ref J7)
       (value PICKIT3)
-      (footprint Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm)
+      (footprint Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm_SMD_Pin1Right)
       (libsource (lib conn) (part Conn_01x05))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C84985A))
@@ -235,7 +235,7 @@
         (field (name "Mouser Price/Stock") https://www.mouser.com/Search/Refine.aspx?Keyword=798-DM3CSSF)
         (field (name Manufacturer_Name) Hirose)
         (field (name Manufacturer_Part_Number) DM3CS-SF))
-      (libsource (lib SamacSys_Parts) (part DM3CS-SF))
+      (libsource (lib MB_V2-cache) (part DM3CS-SF))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D1450E3))
     (comp (ref U1)
@@ -405,9 +405,7 @@
       (pins
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))))
-    (libpart (lib SamacSys_Parts) (part DM3CS-SF)
-      (description "MicroSD card connector, push-pull type MicroSD card connector, push-pull type")
-      (docs https://componentsearchengine.com/Datasheets/1/DM3CS-SF.pdf)
+    (libpart (lib MB_V2-cache) (part DM3CS-SF)
       (fields
         (field (name Reference) J)
         (field (name Value) DM3CS-SF)
@@ -497,18 +495,18 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical regul)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
+    (library (logical PrototipoMB-cache)
+      (uri F:\Daniel\Documentos\DP\Tesis\KiCAD\MOBOv4_Artesanal\PrototipoMB-cache.lib))
+    (library (logical MB_V2-cache)
+      (uri F:\Daniel\Documentos\DP\Tesis\KiCAD\MOBOv4_Artesanal\MB_V2-cache.lib))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical transistors)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\transistors.lib"))
-    (library (logical PrototipoMB-cache)
-      (uri D:\Documentos\TesisDP\MOBOv4_Artesanal\PrototipoMB-cache.lib))
-    (library (logical SamacSys_Parts)
-      (uri D:\Documentos\Kicad\Librerias\SamacSys_Parts.lib)))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name "Net-(J4-Pad1)")
       (node (ref J4) (pin 1)))

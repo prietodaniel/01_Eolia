@@ -35,7 +35,6 @@ LIBS:microchip_pic24mcu
 LIBS:microchip_pic16mcu
 LIBS:PrototipoMB-cache
 LIBS:LT1054
-LIBS:SamacSys_Parts
 LIBS:MB_V2-cache
 EELAYER 25 0
 EELAYER END

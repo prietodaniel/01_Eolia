@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Electrochemical_Sensor
+#
+DEF Electrochemical_Sensor U 0 40 Y Y 1 F N
+F0 "U" -600 250 60 H V C CNN
+F1 "Electrochemical_Sensor" -550 150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -800 100 -350 -300 0 1 0 f
+X WE 1 -1000 -100 200 R 50 50 1 1 O
+X NC 2 -650 -500 200 U 50 50 1 1 N
+X NC 3 -500 -500 200 U 50 50 1 1 N
+X RE 4 -150 -100 200 L 50 50 1 1 O
+X CE 5 -150 0 200 L 50 50 1 1 O
+X WE 6 -1000 0 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

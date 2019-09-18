@@ -35,7 +35,6 @@ LIBS:microchip_pic24mcu
 LIBS:microchip_pic16mcu
 LIBS:PrototipoMB-cache
 LIBS:LT1054
-LIBS:SamacSys_Parts
 LIBS:MB_V2-cache
 EELAYER 25 0
 EELAYER END
@@ -96,17 +95,6 @@ F 3 "" H 17750 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1
-U 1 1 5C84984E
-P 6450 2850
-F 0 "J1" H 6450 2950 50  0000 C CNN
-F 1 "AlimentacionPM" V 6600 2850 50  0000 C CNN
-F 2 "Connectors_JST:JST_PH_B2B-PH-SM4-TB_02x2.00mm_Straight" H 6450 2850 50  0001 C CNN
-F 3 "" H 6450 2850 50  0001 C CNN
-	1    6450 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L CP C9
 U 1 1 5C849850
 P 17050 7250
@@ -158,10 +146,6 @@ Text GLabel 5800 4850 0    60   Input ~ 0
 VDD2
 Text GLabel 5750 5550 0    60   Input ~ 0
 GND
-Text GLabel 5700 2850 0    60   Input ~ 0
-VDD2
-Text GLabel 5650 3050 0    60   Input ~ 0
-GND
 Text GLabel 18200 4750 2    60   Input ~ 0
 VDD1
 Text GLabel 15500 7750 3    60   Input ~ 0
@@ -174,7 +158,7 @@ U 1 1 5C84985A
 P 13750 4650
 F 0 "J7" H 13750 4950 50  0000 C CNN
 F 1 "PICKIT3" V 13850 4650 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 13750 4650 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm_SMD_Pin1Right" H 13750 4650 50  0001 C CNN
 F 3 "" H 13750 4650 50  0001 C CNN
 	1    13750 4650
 	0    1    -1   0   
@@ -539,14 +523,6 @@ Wire Wire Line
 	8600 3150 8600 4200
 Wire Wire Line
 	8350 3950 8350 4600
-Wire Wire Line
-	5700 2850 6250 2850
-Wire Wire Line
-	5650 3050 5750 3050
-Wire Wire Line
-	5750 3050 5750 2950
-Wire Wire Line
-	5750 2950 6250 2950
 Wire Wire Line
 	17000 6300 17000 5750
 Wire Wire Line
